@@ -43,8 +43,8 @@ INSTALLED_APPS = [
 
 
 REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES' : [
-        'rest_framework.permissions.DjangoModel permission or Anonreadonly'
+    'DEFAULT_PERMISSON_CLASSES' : [
+        "rest_framework.permissions.DjangoModelPermissionOrAnonReadOnly"
     ]
 }
 
